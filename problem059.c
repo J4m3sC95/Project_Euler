@@ -108,7 +108,7 @@ int main(){
 			temp_key_index ++;
 		}
 		
-		// printf("Temp key:\n\n%s\n\n", temp_key);
+		//printf("Temp key:\n\n%s\n\n", temp_key);
 		
 		// go through the temp key and try to find a pattern
 		temp_key_index = 3;

@@ -10,6 +10,7 @@ all:
 	$(CC) problem005.c -o problem005 $(CFLAGS)
 	$(CC) problem006.c -o problem006 $(CFLAGS)
 	$(CC) problem007.c -o problem007 $(CFLAGS)
+	$(CC) problem008.c -o problem008 $(CFLAGS)
 	$(CC) problem055.c -o problem055 $(CFLAGS)
 	$(CC) problem055.c -o problem059 $(CFLAGS)
 
@@ -22,5 +23,6 @@ clean:
 	rm -f problem005
 	rm -f problem006
 	rm -f problem007
+	rm -f problem008
 	rm -f problem055
 	rm -f problem059
