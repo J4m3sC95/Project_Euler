@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 char file_path[] = "cipher.txt";
 
@@ -148,7 +149,7 @@ int main(){
 		decoded_message[m] = raw_data[m] ^ key[m%3];
 		ascii_count += decoded_message[m];
 	}
-	printf("%s\n\nSum of ascii values = %d\n\n", decoded_message, ascii_count);
+	printf("%s\n\nSum of ascii values = %lu\n\n", decoded_message, ascii_count);
 	
 	return 0;
 }

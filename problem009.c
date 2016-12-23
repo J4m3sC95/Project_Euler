@@ -23,7 +23,7 @@ int main(){
 	a = numerator/denominator;
 	c = 1000 - (a + b);
 	
-	printf("\n\na = %d, b = %d, c = %d\n\nProduct = %d\n\n", a, b, c, a*b*c);
+	printf("\n\na = %lu, b = %lu, c = %lu\n\nProduct = %lu\n\n", a, b, c, a*b*c);
 	
 	
 	return 0;

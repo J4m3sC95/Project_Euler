@@ -40,7 +40,7 @@ unsigned long multiple_sum(int multiple, int limit, int exclusion){
 		return 0;
 	}
 
-	printf("Sum of all multiples of %d = %d\n\n", multiple, sum);
+	printf("Sum of all multiples of %d = %lu\n\n", multiple, sum);
 
 	return sum;
 }
@@ -56,7 +56,7 @@ int main(){
 
 	//printf("Sum after multiples of 5 added = %d\n", grand_total);
 
-	printf("Complete!! - Sum = %d\n\n", grand_total);
+	printf("Complete!! - Sum = %lu\n\n", grand_total);
 
 	return 0;
 }

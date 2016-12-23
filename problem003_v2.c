@@ -1,6 +1,5 @@
-#include <gmp.h>
-
 #include <stdio.h>
+#include <gmp.h>
 
 int division_complete = 0;
 int factorisation_complete = 0;

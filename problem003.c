@@ -63,7 +63,7 @@ int count_indecrement(int *input, int direction){
 int number_array_division(int *divisor){
 	int array[5];
 	int count[5] = {0,0,0,0};
-	int n,m;
+	int n;
 	int finished = 0;
 	int result;
 

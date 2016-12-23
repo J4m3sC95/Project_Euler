@@ -39,4 +39,6 @@ int main(){
 	printf("Largest Product = ");
 	mpz_out_str(stdout, 10, largest_product);
 	printf("\n\n");
+	
+	return 0;
 }

@@ -31,7 +31,7 @@ int main(){
 
 	}while(n < LIMIT);
 
-	printf("\nFinal sum = %d\n\n", sum);
+	printf("\nFinal sum = %lu\n\n", sum);
 
 	return 0;
 }
