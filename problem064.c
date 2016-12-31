@@ -101,7 +101,7 @@ unsigned int root_period(unsigned int candidate){
 			
 	}
 	
-	printf("Error!! - Not enough iterationsfor number %d\n", candidate);
+	printf("Error!! - Not enough iterations for number %d\n", candidate);
 	error_count++;
 	
 	return 0;
