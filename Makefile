@@ -3,7 +3,7 @@ CFLAGS= -lgmp -Wall -lm
 SS=../Sudoku_Solver/
 
 TARGETS = problem001 problem002 problem003 problem003_v2 problem004 problem005 problem006 problem007 problem008 problem009 problem010 problem055 problem059 \
-problem064 problem011 problem112 problem012 problem013 problem014
+problem064 problem011 problem112 problem012 problem013 problem014 problem019
 
 all: $(TARGETS) problem096
 
